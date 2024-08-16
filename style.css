@@ -1,0 +1,306 @@
+
+*
+{
+    font-family: sans-serif;
+}
+html body{
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.header
+{
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-left: 00px;
+    margin-top: 20px;
+    gap: 445px;
+    align-items: center;
+    padding-left: 50px;
+
+}
+.logo
+{
+    width: 150px;
+}
+.header1
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 55px;
+    margin-top: -110px;
+}
+.header2
+{
+    display: flex;
+    align-items: center;
+    gap: 5pxpx;
+    margin-left: 00px;
+    margin-right: 00px;
+    margin-top: -110px;
+}
+.globe
+{
+    width: 50px;
+    height: 50px;
+    padding: 0px 0px;
+    border: none;
+    margin: 0px;
+    border-radius: 25px;
+    background-color: white;
+    cursor: pointer;
+}
+.globe:hover {
+    background-color: rgba(247,246,246,255);
+    outline-offset: 2px;
+ }
+
+
+.accountbtn
+{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid lightgray;
+    border-radius: 24px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.acc
+{
+    width: 25px;
+    height: 25px;
+}
+.accountbtn:hover {
+    box-shadow: 10px 10px 10px lightgrey;;
+    outline-offset: 2px;
+ }
+.stay
+{
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+    cursor: pointer;
+}
+.exp
+{
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    color: rgb(114, 110, 110);
+    cursor: pointer;
+}
+.exp:hover {
+    background-color: rgba(247,246,246,255);
+    outline-offset: 2px;
+ }
+
+.home 
+{
+    position: relative;
+    font-size: 14px;
+    height: 35px;
+    font-weight: 600;
+    border: none;
+    border-radius: 14px;
+    background-color: transparent;
+    cursor: pointer;
+   
+}
+.home:hover {
+    background-color: rgba(247,246,246,255);
+    outline-offset: 2px;
+ }
+.parentdiv
+{
+    position: absolute;
+    display: flex;
+    gap: 0px;
+    width: 50%;
+    height: 70px;
+    border: 2px solid lightgray;
+    box-shadow: 10px 10px 10px lightgrey;
+    border-radius: 45px;
+    margin-left: 380px;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 15px;
+    padding-top: 0px;
+    top: 80px;
+    cursor: pointer;
+    
+}
+.where
+{
+    width:300px;
+    border: none;
+    height: 70px;
+    border-radius: 30px;
+    background-color: transparent;
+    text-align: start;
+}
+.where:hover {
+    background-color: rgba(247,246,246,255);
+    outline-offset: 2px;
+ }
+.checkin
+{
+    width: 120px;
+    border: none;
+    height: 70px;
+    border-radius: 30px;
+    background-color: transparent;
+}
+.checkin:hover {
+    background-color: rgba(247,246,246,255);
+    outline-offset: 2px;
+ }
+.checkout
+{
+    width: 120px;
+    border: none;
+    height: 70px;
+    border-radius: 30px;
+    background-color: transparent;
+}
+.checkout:hover {
+    background-color: rgba(247,246,246,255);
+    outline-offset: 2px;
+ }
+.who
+{
+    width: 300px;
+    border: none;
+    height: 70px;
+    border-radius: 30px;
+    background-color: transparent;
+    text-align: start;
+}
+.who:hover {
+    background-color: rgba(247,246,246,255);
+    outline-offset: 2px;
+ }
+.search
+{
+    display: flex;
+    width: 45px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+.vl
+{
+    border-left: 2px solid lightgray;
+    height: 40px;
+}
+.bold{
+    font-weight: 600;
+}
+.horizontal
+{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+.icons
+{
+    display: flex;
+    gap: 40px;
+    margin-left: 130px;   
+}
+.iconbtn
+{
+    background-color: transparent;
+    width: 70px;
+    height: 70px;
+    border: none;
+    cursor: pointer;
+}
+.houses
+{
+    display: flex;
+    position: absolute;
+    gap: 40px;
+    margin-left: 130px;
+    top: 270px;
+}
+.houseimg
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.bold
+{
+    font-weight: 600;
+}
+
+.end
+{
+    display: flex;
+    width: 100%;
+    height: 370px;
+    bottom: 20px;
+    background-color: rgba(247,246,246,255);
+    gap: 100px;
+    margin-top: 450px;
+    
+
+}
+
+.support
+{
+    margin-top: 70px;
+    margin-left: 130px;
+    width: 400px;
+    height: 400px;
+    line-height: 45px;
+    cursor: pointer;
+}
+
+.hosting
+{
+    margin-top: 70px;
+    width: 400px;
+    height: 400px;
+    line-height: 45px;
+    cursor: pointer;
+}
+.airbnb
+{
+    margin-top: 70px;
+    width: 400px;
+    height: 400px;
+    line-height: 35px;
+    cursor: pointer;
+}
+.copyright
+{
+    display: flex;
+    background-color: rgba(247,246,246,255);
+    gap: 700px;
+    align-items: center;
+}
+li
+{
+    float: left;
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+}
+.socials
+{
+    align-items: center;
+    cursor: pointer;
+}
+hr
+{
+    margin: 0px;
+}
